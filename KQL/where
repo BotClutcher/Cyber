@@ -1,0 +1,5 @@
+## where 
+is used to filter from the table
+
+| where FirstName == "Peter"
+| where ContinerName == 'Asia' 
