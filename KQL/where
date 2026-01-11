@@ -1,8 +1,9 @@
-# where 
----
-is used to filter from the table
+## where
 
-```SQL
+---
+
+`where` is used to filter rows from a table.
+
+```kql
 | where FirstName == "Peter"
-| where ContinerName == 'Asia' 
-```
+| where ContinerName == "Asia"
