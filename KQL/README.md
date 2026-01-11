@@ -28,3 +28,11 @@ Few notes beforehand,
   - !endswith
   - !startswith_cs
 =~ Case Insensitivity
+
+'in' is alternative of 'or'
+
+```kql
+| where product in = ('PC', 'MAC')
+
+| where product == 'PC' or product == 'MAC'
+```
