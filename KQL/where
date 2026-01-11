@@ -1,5 +1,8 @@
-## where 
+# where 
+---
 is used to filter from the table
 
+```SQL
 | where FirstName == "Peter"
 | where ContinerName == 'Asia' 
+```
