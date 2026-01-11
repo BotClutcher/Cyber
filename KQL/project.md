@@ -14,3 +14,8 @@ if we want to re-order our tables & keep all the other fields too
 <tabel>
 | project-reorder <field1>, <field2>, <filed3>
 ```
+## rename field names
+
+```kql
+| project Process, Process Code=Activity, Account
+```
